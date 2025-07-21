@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include("./layout/head") %>
+
+  <body>
+    <%- include('./layout/header') -%>
+      <div class="container pt-xl pt-sm-m p-sm-s">
+        <nav class="mb-l m-sm-s">
+          <ol class="bread-crumb  d-flex">
+            <li class="bread-first">
+              <a href="../pages/index.html" class="neutral-600">
+                首頁
+              </a>
+            </li>
+            <li class="bread-first">
+              <a href="#" class="neutral-600">
+                女鞋
+              </a>
+            </li>
+            <li class="bread-active">
+              <a href="#">
+                所有商品
+              </a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+
+
+      <div class="container p-sm-s mb-3xl">
+        <h1 class="h1 mb-l m-sm-s">女鞋</h1>
+
+        <section class="d-flex  mb-sm-m">
+          <aside class="product d-sm-none">
+            <ul class="product-list">
+              <li class="product-item ">
+                <a href="#" class="text-primary active">
+                  所有商品
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  慢跑鞋
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  滑板鞋
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  厚底鞋
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  限定 / 聯名企劃
+                </a>
+              </li>
+            </ul>
+          </aside>
+
+          <main class="main">
+            <div class="wrap d-flex">
+              <div class="card">
+                <a href="./detail.html">
+                  <img class="product-img" src="../assets/images/products/Product-Card-1.png" alt="nice-shoes">
+                  <h3 class="type ">PLATFORM 404</h3>
+                  <div class="price">NT$2,600</div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="./detail.html">
+                  <img class="product-img" src="../assets/images/products/Product-Card-2.png" alt="nice-shoes">
+                  <h3 class="type">PLATFORM 404</h3>
+                  <div class="price">NT$2,600</div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="./detail.html">
+                  <img class="product-img" src="../assets/images/products/Product-Card-3.png" alt="nice-shoes">
+                  <h3 class="type">VM001</h3>
+                  <div class="price">NT$2,600</div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="./detail.html">
+                  <img class="product-img" src="../assets/images/products/Product-Card-4.png" alt="nice-shoes">
+                  <h3 class="type">Melty Kiss</h3>
+                  <div class="price">NT$4,000</div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="./detail.html">
+                  <img class="product-img" src="../assets/images/products/Product-Card-5.png" alt="nice-shoes">
+                  <h3 class="type">BOOMBLOK</h3>
+                  <div class="price">NT$3,200</div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="./detail.html">
+                  <img class="product-img" src="../assets/images/products/Product-Card-6.png" alt="nice-shoes">
+                  <h3 class="type">BOOMBLOK</h3>
+                  <div class="price">NT$3,200</div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="./detail.html">
+                  <img class="product-img" src="../assets/images/products/Product-Card-7.png" alt="nice-shoes">
+                  <h3 class="type">R:UNER</h3>
+                  <div class="price">NT$4,000</div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="./detail.html">
+                  <img class="product-img" src="../assets/images/products/Product-Card-8.png" alt="nice-shoes">
+                  <h3 class="type">Sugar Snap</h3>
+                  <div class="price">NT$4,000</div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="./detail.html">
+                  <img class="product-img" src="../assets/images/products/Product-Card-9.png" alt="nice-shoes">
+                  <h3 class="type">Neofoam</h3>
+                  <div class="price">NT$4,000</div>
+                </a>
+              </div>
+              <div class="card d-none d-sm-block">
+                <a href="./detail.html">
+                  <img class="product-img" src="../assets/images/products/Product-Card.png" alt="nice-shoes">
+                  <h3 class="type">Buttermood</h3>
+                  <div class="price">NT$4,000</div>
+                </a>
+              </div>
+            </div>
+
+            <ul class="d-flex pages-nums mb-xl">
+              <li class="pages-num "><i class="bi bi-chevron-left"></i></li>
+              <li class="pages-num active">1</li>
+              <li class="pages-num ">2</li>
+              <li class="pages-num ">3</li>
+              <li class="pages-num ">...</li>
+              <li class="pages-num ">10</li>
+              <li class="pages-num "><i class="bi bi-chevron-right"></i></li>
+            </ul>
+          </main>
+        </section>
+      </div>
+      </div>
+
+      <%- include("./layout/footer") %>
+
+        <script type="module" src="../main.js"></script>
+
+  </body>
+
+</html>

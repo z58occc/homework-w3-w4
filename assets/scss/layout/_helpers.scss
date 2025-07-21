@@ -1,0 +1,73 @@
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.d-flex {
+  display: flex;
+}
+.d-none{
+  display: none;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-top{
+  vertical-align: top;
+}
+.z-100{
+  z-index: 100;
+}
+
+.active{
+  color:#57a203 ;
+}
+.w-25{
+  width: calc((100% - 24px) / 4);
+}
+.w-33{
+  width: 32.92%
+}
+.w-50{
+  width: calc((100% - 8px) / 2);
+}
+.w-66{
+  width: 66.5%;
+}
+.w-100{
+  width: 100%;
+}
+.bg-white{
+  background: white;
+}
+.bg-netural-100{
+  background: #F8F9FA;
+}
+
+@media (max-width:576px) {
+  .d-sm-content{
+    display: contents;
+  }
+  
+  .d-sm-block{
+    display: block;
+  }
+  .d-sm-none{
+    display: none;
+  }
+  .d-sm-flex{
+    display: flex;
+  }
+  .w-sm-100{
+    width: 100%;
+  }
+}
+
+

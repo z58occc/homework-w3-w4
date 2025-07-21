@@ -1,0 +1,75 @@
+.log {
+  box-sizing: border-box;
+  .log-img {
+    box-sizing: border-box;
+    width: 40%;
+  }
+  .log-radio:checked ~ .welcome .log-label,
+  .reg-radio:checked ~ .welcome .reg-label {
+    color: #212529;
+    border-bottom: 2px solid #212529;
+  }
+  .log-radio:checked ~ .welcome .log-ways,
+  .reg-radio:checked ~ .welcome .reg-ways {
+    display: block;
+  }
+  .welcome {
+    box-sizing: border-box;
+    width: calc(60% - 24px);
+    padding: 120px 10%;
+    background-image: url("/assets/images/log-in/5f46163d205ae800c9ce9a11ee01b64dc67fc100.png");
+    background-repeat: repeat;
+    background-size: 100px 100px;
+    .log-in,
+    .reg {
+      box-sizing: border-box;
+      text-wrap: nowrap;
+      width: 50%;
+    }
+    label {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 12px 44%;
+      border-bottom: 2px solid #dee2e6;
+    }
+
+    .log-ways,
+    .reg-ways {
+      display: none;
+    }
+
+    .icon {
+      width: 40px;
+      margin-right: 8px;
+    }
+    .way {
+      align-items: center;
+      padding: 12px;
+      border: 1px solid #dee2e6;
+      border-radius: 4px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .log {
+    .log-img {
+      width: 100%;
+      background-image: url("/assets/images/log-in/img.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .welcome {
+      width: 100%;
+      background: white;
+      padding: 32px 12px;
+      .tab {
+        width: 100%;
+        label {
+          padding: 12px 44%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,177 @@
+.nav {
+  padding: 28px 0;
+  .logo {
+    font-weight: 700;
+    padding: 8px 12px;
+    font-size: 20px;
+    .deco {
+      position: absolute;
+      top: 5px;
+      right: -1px;
+      z-index: -1;
+      background: #c0fa73;
+      width: 8px;
+      height: 8px;
+      border-radius: 100%;
+    }
+  }
+  .nav-item {
+    font-weight: 500;
+    padding: 12px 0;
+  }
+  .bi-person {
+    font-size: 18px;
+    &:hover {
+      color: #57a203;
+    }
+  }
+}
+
+.bread-crumb {
+  .bread-first {
+    font-weight: 500;
+    color: #6c757d;
+  }
+  li + li::before {
+    content: "/";
+    margin: 0 8px;
+    color: #dee2e6;
+  }
+  .bread-active {
+    font-weight: 500;
+    color: #212529;
+  }
+}
+.footer {
+  .ad {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    background: #e8fec5;
+    padding: 33.5px 0;
+    justify-content: center;
+    align-items: center;
+    .sign {
+      padding: 12px 24px;
+      background: #212529;
+      color: white;
+      font-weight: 500;
+      font-size: 16px;
+      border-radius: 4px;
+      margin-left: 24px;
+      &:hover {
+        background: #495057;
+      }
+    }
+  }
+  .footer-list {
+    justify-content: space-between;
+    margin-bottom: 24px;
+    .logo {
+      font-weight: 700;
+      padding: 8px 12px;
+      font-size: 20px;
+      .deco {
+        position: absolute;
+        top: 5px;
+        right: -1px;
+        z-index: 0;
+        background: #c0fa73;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+      }
+    }
+    .nav-item {
+      font-weight: 500;
+      padding: 12px 0;
+    }
+  }
+  .copy-right {
+    border-top: 1px solid #dee2e6;
+    font-size: 14px;
+    padding-top: 32px;
+    text-align: center;
+    color: #6c757d;
+  }
+}
+.container {
+  width: 67.5%;
+  margin: 0 auto;
+}
+.buy-button {
+  padding: 12px 24px;
+  background: #c0fa73;
+  border-radius: 4px;
+  font-weight: 500;
+  &:hover{
+    color:#477A11
+  }
+}
+.try-on {
+  font-weight: 500;
+  font-size: 16px;
+  background: #000;
+  color: white;
+  border: #212529 1px solid;
+  border-radius: 4px;
+  padding: 12px 65.5px;
+  .bi-handbag {
+    font-size: 20px;
+    margin-right: 2px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .nav {
+    padding: 0;
+    .nav-items {
+      width: 100%;
+      order: 2;
+      .product-list {
+        margin: 0;
+        background: #e8fec5;
+        padding: 12px 0;
+        text-align: center;
+        width: 50%;
+      }
+      .brand-story {
+        background: #f5fee7;
+        padding: 12px 0;
+        text-align: center;
+        width: 50%;
+      }
+    }
+    .log-in {
+      width: 24px;
+      height: 24px;
+      padding: 12px;
+      text-align: center;
+      order: 1;
+    }
+  }
+  .footer {
+    .ad {
+      padding: 24px;
+      white-space: nowrap;
+      margin-bottom: 0;
+      .sign {
+        padding: 8px 16px;
+        margin-left: 16px;
+        white-space: nowrap;
+      }
+    }
+    .footer-list {
+      padding: 32px 0px 0 24px;
+      .logo {
+        display: block;
+        padding: 0;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

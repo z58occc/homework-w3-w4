@@ -1,0 +1,144 @@
+.mb-xxs {
+  margin-bottom: $spcing-xxs; //4
+}
+.mb-xs {
+  margin-bottom: $spcing-xs; //8
+}
+.mb-s {
+  margin-bottom: $spcing-s; //12
+}
+.mb-m {
+  margin-bottom: $spcing-m; //16
+}
+.mb-l {
+  margin-bottom: $spcing-l; //24
+}
+.mb-xl {
+  margin-bottom: $spcing-xl; //32
+}
+.mb-2xl {
+  margin-bottom: $spcing-2xl !important; //40
+}
+.mb-3xl {
+  margin-bottom: $spcing-3xl !important;  //48
+}
+.mb-5xl {
+  margin-bottom: $spcing-5xl; //64
+}
+.mb-7xl {
+  margin-bottom: $spcing-7xl; //112
+}
+.mb-8xl {
+  margin-bottom: $spcing-7xl; //128
+}
+.mr-s{
+  margin-right: $spcing-s; //12
+}
+.mr-m{
+  margin-right: $spcing-m; //16
+}
+.mr-l {
+  margin-right: $spcing-l; //24
+}
+.mr-2xl {
+  margin-right: $spcing-2xl !important; //40
+}
+
+.mr-3xl {
+  margin-right: $spcing-3xl; //48
+}
+.pt-0{
+  padding-top: 0 !important;
+}
+.pt-xl {
+  padding-top: $spcing-xl; //32
+}
+.pt-3xl {
+  padding-top: $spcing-3xl; //48
+}
+.pt-5xl {
+  padding-top: $spcing-5xl; //64
+}
+.pb-2xl {
+  padding-bottom: $spcing-2xl; //40
+}
+.pb-3xl {
+  padding-bottom: $spcing-3xl; //48
+}
+.pb-5xl {
+  padding-bottom: $spcing-5xl; //64
+}
+.pl-xs{
+  padding-left: $spcing-xs;//8
+}
+.pl-s{
+  padding-left: $spcing-s;//12
+}
+
+.gap-xs {
+  gap: 8px;
+}
+
+@media (max-width: 576px) {
+  
+  .m-sm-xs {
+    margin: $spcing-xs; //8
+  }
+  .m-sm-s {
+    margin: $spcing-s; //12
+  }
+  .m-sm-l {
+    margin: $spcing-l;
+  }
+  .mb-sm-xxs {
+    margin-bottom: $spcing-xxs; //4
+  }
+  .mb-sm-xs {
+    margin-bottom: $spcing-xs; //8
+  }
+  .mb-sm-s {
+    margin-bottom: $spcing-s; //12
+  }
+  .mb-sm-m {
+    margin-bottom: $spcing-m; //16
+  }
+  .mb-sm-l {
+    margin-bottom: $spcing-l; //24
+  }
+  .mb-sm-xl {
+    margin-bottom: $spcing-xl !important; //32
+  }
+  .mb-sm-2xl {
+    margin-bottom: $spcing-2xl; //40
+  }
+  .mb-sm-5xl {
+    margin-bottom: $spcing-5xl; //64
+  }
+  .mb-sm-80 {
+    margin-bottom: 80px;
+  }
+  .mr-sm-0{
+    margin-right: 0 !important;
+  }
+  .p-sm-s {
+    padding: 0 $spcing-s; //12
+  }
+  .pl-sm-s {
+    padding-left: $spcing-s ; //12
+  }
+  .pb-sm-0 {
+    padding-bottom: 0;
+  }
+  .pb-sm-xl {
+    padding-bottom: $spcing-xl ;//32
+  }
+  .pt-sm-0 {
+    padding-top: 0;
+  }
+  .pt-sm-m {
+    padding-top: $spcing-m; //16
+  }
+  .pt-sm-2xl {
+    padding-top: $spcing-2xl; //40
+  }
+}

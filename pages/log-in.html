@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("./layout/head") %>
+
+  <body>
+    <%- include('./layout/header') -%>
+
+      <main class="log pt-5xl pb-5xl container pt-sm-0 pb-sm-0">
+        <div class="d-flex d-sm-block ">
+          <div class="log-img mr-l ">
+            <picture>
+              <source media="(max-width:576px)" srcset="../assets/images/log-in/img.png">
+              <img src="../assets/images/log-in/img21.png" alt="ad with shoes">
+            </picture>
+          </div>
+
+
+          <input type="radio" class="log-radio d-none " id="log-in" name="log" checked>
+          <input type="radio" class="reg-radio d-none " id="reg" name="log">
+          <div class="welcome">
+            <h3 class="h3 font-bold text-center mb-xl">歡迎！</h3>
+            <ul class="tab d-flex mb-xl">
+              <li class="log-in font-bold neutral-600 log-in-active">
+                <label class="log-label" for="log-in">
+                  登入
+                </label>
+              </li>
+              <li class="reg font-bold neutral-600">
+                <label class="reg-label" for="reg">
+                  註冊
+                </label>
+              </li>
+            </ul>
+
+
+            <ul class="log-ways">
+              <li class="way d-flex bg-white mb-xs">
+                <img class="icon" src="../assets/images/log-in/Facebook.png" alt="fb icon">
+                <span>Facebook 登入</span>
+              </li>
+              <li class="way d-flex bg-white mb-xs">
+                <img class="icon" src="../assets/images/log-in/apple.png" alt="apple icon">
+                <span>Apple 登入</span>
+              </li>
+              <li class="way d-flex bg-white mb-xs">
+                <img class="icon" src="../assets/images/log-in/google.png" alt="google icon">
+                <span>Google 登入</span>
+              </li>
+            </ul>
+
+
+            <ul class="reg-ways">
+              <li class="way d-flex bg-white mb-xs">
+                <img class="icon" src="../assets/images/log-in/Facebook.png" alt="fb icon">
+                <span>Facebook 註冊</span>
+              </li>
+              <li class="way d-flex bg-white mb-xs">
+                <img class="icon" src="../assets/images/log-in/apple.png" alt=" apple icon">
+                <span>Apple 註冊</span>
+              </li>
+              <li class="way d-flex bg-white mb-xs">
+                <img class="icon" src="../assets/images/log-in/google.png" alt="google icon">
+                <span>Google 註冊</span>
+              </li>
+
+            </ul>
+          </div>
+
+
+
+
+
+        </div>
+
+      </main>
+
+      <%- include("./layout/footer-wishlist") %>
+
+
+        <script type="module" src="../main.js"></script>
+  </body>
+
+</html>

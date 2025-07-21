@@ -1,0 +1,145 @@
+.banner {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 289px 0 288px 200px;
+  background-image: url("/assets/images/index/Banner-lg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.new-products {
+  .cards {
+    flex-wrap: wrap;
+    gap: 40px 24px;
+    .card-item {
+      width: calc((100% - 24px) / 2);
+    }
+  }
+}
+.restock {
+  gap: 24px;
+  &-item {
+    width: 25%;
+    .label {
+      width: 91px;
+      padding: 8px 12px;
+      background: #f5fee7;
+      color: #57a203;
+    }
+    background: #f8f9fa;
+    &:hover {
+      filter: brightness(1.08) contrast(0.95); /* 或更接近原圖的對比 */
+      transition: filter 0.3s ease;
+    }
+  }
+}
+.banner-second {
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  background-image: url("/assets/images/index/image\ 30.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .star {
+    width: 39px;
+    top: 72px;
+    left: 567px;
+  }
+  .sparkle {
+    width: 76px;
+    top: 274px;
+    right: 603px;
+  }
+  .indicators {
+    left: calc(50% - 44px);
+    bottom: 8px;
+    gap: 8px;
+    .ind {
+      width: 8px;
+      height: 8px;
+      background: #ced4da;
+      border-radius: 100%;
+    }
+    .ind-active {
+      width: 24px;
+      border-radius: 4px;
+      background: #6c757d;
+    }
+  }
+}
+.types {
+  gap: 24px;
+  .type {
+    width: 25%;
+    padding: 117px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    &:hover h3 {
+      color: #c0fa73;
+    }
+  }
+  .type-1 {
+    background-image: url("/assets/images/index/image\ 20-1.png");
+  }
+  .type-2 {
+    background-image: url("/assets/images/index/image\ 20-2.png");
+  }
+  .type-3 {
+    background-image: url("/assets/images/index/image\ 20-3.png");
+  }
+  .type-4 {
+    background-image: url("/assets/images/index/image\ 20.png");
+  }
+}
+@media (max-width: 576px) {
+  .banner {
+    padding: 155px 24px;
+    background-image: url("/assets/images/index/cf551415ad4c6d8dd99b1a0d64a27773ad8734e1.png");
+    background-position: center center;
+  }
+  .new-products {
+    padding-left: 12px;
+    .cards {
+      flex-wrap: wrap;
+      gap: 12px;
+      .card-item {
+        width: calc((100% - 36px) / 2);
+      }
+    }
+  }
+  .restock {
+    overflow-x: auto;
+    gap: 16px;
+    &-item {
+      min-width: 300px;
+    }
+  }
+  .banner-second {
+    padding: 64px 12px;
+    background-image: url("/assets/images/index/768DB15E-007A-4C29-AF40-303B53B5BB9B\ 1.png");
+    .star {
+      left: -15px;
+      top: 36px;
+    }
+    .sparkle {
+      right: -30px;
+      top: 282px;
+    }
+  }
+  .types {
+    flex-wrap: wrap;
+    gap: 12px;
+    .type {
+      padding: 61px 0;
+      width: calc((100% - 36px) / 2);
+    }
+  }
+  .showcase {
+    overflow-x: auto;
+    img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}

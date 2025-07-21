@@ -1,0 +1,94 @@
+.display-1 {
+  font-size: 64px;
+  line-height: 1.2;
+}
+.display-2 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.h1 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.h2 {
+  font-size: 32px;
+  line-height: 1.2;
+}
+.h3 {
+  font-size: 28px;
+  line-height: 1.2;
+}
+.h4 {
+  font-size: 24px;
+  line-height: 1.2;
+}
+.h5 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.h6{
+  font-size: 16px;
+  line-height: 1.2;
+}
+.label-sm {
+  font-size: 14px;
+}
+.paragraph-lg {
+  font-size: 20px;
+}
+
+.text-primary-300 {
+  color: #c0fa73;
+}
+.text-primary-400 {
+  color: #57A203;
+}
+.neutral-0 {
+  color: white;
+}
+.neutral-500 {
+  color: #adb5bd;
+}
+.neutral-600 {
+  color: #6C757D;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-medium {
+  font-weight: 500;
+}
+.text-center {
+  text-align: center;
+}
+.text-end {
+  text-align: end;
+}
+
+@media (max-width: 576px) {
+  .display-sm-2 {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+  .h2-sm {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .h4-sm {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  .h5-sm {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .h6-sm {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .text-sm-start{
+    text-align: start !important;
+  }
+}

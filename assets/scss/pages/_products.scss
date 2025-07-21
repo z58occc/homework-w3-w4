@@ -1,0 +1,80 @@
+.h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+}
+.product {
+  box-sizing: border-box;
+  width: 15%;
+  margin-right: 24px;
+  .product-list {
+    .all-product {
+      padding: 8px 0;
+      margin-bottom: 28px;
+      color: #57a203;
+      font-weight: 500;
+    }
+    .product-item {
+      padding: 12px 0;
+      margin-bottom: 16px;
+      font-weight: 500;
+    }
+  }
+}
+.main {
+  width: calc(85% - 24px);
+}
+.wrap {
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  margin-bottom: 48px;
+  .card {
+    box-sizing: border-box;
+    width: calc((100% - 48px) / 3);
+    &:hover {
+      filter: brightness(1.08) contrast(0.95); /* 或更接近原圖的對比 */
+      transition: filter 0.3s ease;
+    }
+    .product-img {
+      width: 100%;
+      margin-bottom: 12px;
+    }
+    .type {
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
+    .price {
+      font-weight: 500;
+    }
+  }
+}
+.pages-nums {
+  justify-content: center;
+  cursor: pointer;
+  .active {
+    background: #c0fa73;
+  }
+  .pages-num {
+    font-weight: 500;
+    width: 40px;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px 0;
+    &:hover {
+      background: #f8f9fa;
+    }
+  }
+}
+@media (max-width: 576px) {
+  main {
+    width: 100%;
+  }
+  .wrap {
+    margin-bottom: 32px;
+    gap: 24px 12px;
+    .card {
+      width: calc((100% - 12px) / 2);
+    }
+  }
+}

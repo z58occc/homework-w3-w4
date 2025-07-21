@@ -1,0 +1,54 @@
+.wish-list {
+  padding: 64px 0;
+  margin: 0 auto;
+  width: 33%;
+  .check-box {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: #c0fa73;
+    border-radius: 100%;
+    vertical-align: text-top;
+    padding-top: 3px;
+    .bi-check-lg {
+      font-size: 24px;
+      color: #477a11;
+    }
+  }
+  .small-banner {
+    background: #f5fee7;
+    padding: 16px;
+    color: #57a203;
+    align-items: center;
+    .bi-truck {
+      font-size: 24px;
+      font-weight: 500;
+      vertical-align: sub;
+    }
+
+  }
+  .wishes {
+    .wish {
+      border-bottom: 1px solid #dee2e6;
+      .my-wish {
+        width: 120px;
+      }
+      .wish-detail {
+        box-sizing: border-box;
+        width: calc(100% - 120px);
+      }
+    }
+  }
+  .try-on{
+    display: block;
+    padding: 12px 24px;
+    margin: 0 auto;
+  }
+}
+@media (max-width:576px){
+  .wish-list{
+    width: 100%;
+    padding: 24px 12px;
+  }
+}
