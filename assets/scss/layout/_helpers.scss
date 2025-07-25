@@ -16,6 +16,9 @@
 .align-items-center {
   align-items: center;
 }
+.justify-content-center {
+  justify-content: center;
+}
 .justify-content-between {
   justify-content: space-between;
 }
@@ -51,7 +54,7 @@
   background: #F8F9FA;
 }
 
-@media (max-width:576px) {
+@include mobile {
   .d-sm-content{
     display: contents;
   }

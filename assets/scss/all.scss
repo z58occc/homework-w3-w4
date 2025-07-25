@@ -1,5 +1,6 @@
 @import "./layout/variable";
 @import "./layout/reset";
+@import "./layout/mixin";
 @import "./layout/space";
 @import "./layout/Typography";
 @import "./layout/border";
@@ -7,7 +8,7 @@
 @import "./layout/helpers";
 @import "./layout/base";
 
-@import "./pages/brand-syory";
+@import "./pages/brand-story";
 @import "./pages/log-in";
 @import "./pages/wishlist";
 @import "./pages/detail";

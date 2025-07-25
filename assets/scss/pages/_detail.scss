@@ -152,7 +152,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@include mobile {
   .other-products {
     .products {
       overflow-x: auto;

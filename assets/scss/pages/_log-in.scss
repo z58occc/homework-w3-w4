@@ -51,7 +51,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@include mobile {
   .log {
     .log-img {
       width: 100%;

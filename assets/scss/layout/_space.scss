@@ -79,7 +79,7 @@
   gap: 8px;
 }
 
-@media (max-width: 576px) {
+@include mobile {
   
   .m-sm-xs {
     margin: $spcing-xs; //8

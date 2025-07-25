@@ -44,9 +44,12 @@
     display: block;
     padding: 12px 24px;
     margin: 0 auto;
+    &:hover{
+      background: #495057;
+    }
   }
 }
-@media (max-width:576px){
+@include mobile{
   .wish-list{
     width: 100%;
     padding: 24px 12px;

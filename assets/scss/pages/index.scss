@@ -34,8 +34,10 @@
   }
 }
 .banner-second {
+  overflow: hidden;
+  box-sizing: border-box;
   padding: 100px 0;
-  width: 100%;
+  max-width: 100%;
   text-align: center;
   background-image: url("/assets/images/index/image\ 30.png");
   background-repeat: no-repeat;
@@ -92,7 +94,7 @@
     background-image: url("/assets/images/index/image\ 20.png");
   }
 }
-@media (max-width: 576px) {
+@include mobile {
   .banner {
     padding: 155px 24px;
     background-image: url("/assets/images/index/cf551415ad4c6d8dd99b1a0d64a27773ad8734e1.png");

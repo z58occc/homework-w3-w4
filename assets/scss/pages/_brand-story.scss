@@ -57,7 +57,7 @@ main {
     list-style: disc;
   }
 }
-@media (max-width: 576px) {
+@include mobile{
   .header {
     background-image: url("/assets/images/brand-story/c7e2e0d7111d666be94562b6f4830973da8b0621\ \(1\).png");
     background-repeat: no-repeat;

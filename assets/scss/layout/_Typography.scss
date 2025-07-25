@@ -67,7 +67,7 @@
   text-align: end;
 }
 
-@media (max-width: 576px) {
+@include mobile {
   .display-sm-2 {
     font-size: 48px;
     line-height: 1.2;
