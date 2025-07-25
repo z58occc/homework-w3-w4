@@ -137,8 +137,7 @@
     gap: 24px;
     .card {
       &:hover {
-        filter: brightness(1.08) contrast(0.95); /* 或更接近原圖的對比 */
-        transition: filter 0.3s ease;
+        opacity: 70%;
       }
       .product-img {
         background: #f1f3f7;

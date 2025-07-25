@@ -13,6 +13,10 @@
     gap: 40px 24px;
     .card-item {
       width: calc((100% - 24px) / 2);
+      &:hover{
+        opacity: 80%;
+        cursor: pointer;
+      }
     }
   }
 }
@@ -28,8 +32,8 @@
     }
     background: #f8f9fa;
     &:hover {
-      filter: brightness(1.08) contrast(0.95); /* 或更接近原圖的對比 */
-      transition: filter 0.3s ease;
+      opacity: 70%;
+      cursor: pointer;
     }
   }
 }

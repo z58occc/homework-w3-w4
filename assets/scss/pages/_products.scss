@@ -32,8 +32,7 @@
     box-sizing: border-box;
     width: calc((100% - 48px) / 3);
     &:hover {
-      filter: brightness(1.08) contrast(0.95); /* 或更接近原圖的對比 */
-      transition: filter 0.3s ease;
+      opacity: 80%;
     }
     .product-img {
       width: 100%;
