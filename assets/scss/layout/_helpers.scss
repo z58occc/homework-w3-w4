@@ -53,6 +53,10 @@
 .bg-netural-100{
   background: #F8F9FA;
 }
+.overflow-x-hidden{
+  // overflow-x: hidden ;
+  overflow: hidden;//AOS動畫消除x軸必須加在父層
+}
 
 @include mobile {
   .d-sm-content{

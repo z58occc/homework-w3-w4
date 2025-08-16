@@ -4,7 +4,7 @@
 <%- include("./layout/head") %>
 
 
-  <body>
+  <body >
     <%- include('./layout/header') -%>
 
       <header class="header">
@@ -13,15 +13,15 @@
       </header>
 
       <main>
-        <div class="container">
-          <section class="detail mb-3xl mb-sm-xl ">
+        <div class="container overflow-x-hidden">
+          <section data-aos="fade-left" class="detail mb-3xl mb-sm-xl ">
             <h4 class="h5 font-bold mb-s text-primary-400 text-center text-sm-start">走出城市的節奏，穿上自己的步調。</h4>
             <p class="content text-sm-start mb-xxs">我們相信，每一雙鞋都該帶著個性出場。</p>
             <p class="content text-sm-start mb-xxs">在 URBNSTEP，我們認為鞋履不只是穿戴飾品，更是你與世界連結的語言。</p>
             <p class="content text-sm-start">融合城市結構與機能語彙，我們打造適合都會節奏的風格鞋款，陪你自信穿梭每一場風景。</p>
           </section>
 
-          <section>
+          <section data-aos="fade-right" class="">
             <img class="w-100 mb-l mb-sm-m" src="../assets/images/brand-story/Main image.png"
               alt="one foot in one shoes">
             <div class="intro">
@@ -39,7 +39,7 @@
             </div>
           </section>
 
-          <div class="container-under">
+          <div data-aos="fade-left"  class="container-under ">
             <section class="mb-3xl mb-sm-xl border-bottom">
               <h3 class="h4 h5-sm mb-l mb-sm-m font-bold">品牌歷程</h3>
               <ol class=" timeline pb-3xl pb-sm-xl">
@@ -108,6 +108,10 @@
         </div>
       </main>
       <%- include("./layout/footer") %>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
         <script type="module" src="../main.js"></script>
 
   </body>
